@@ -1,0 +1,21 @@
+<!-- THis File THe Project File includes basic information about our Project, in .NET6, all project files
+ends with a .csproj, ans since we are using .NET6, all our project files should end with .csproj -->
+<!-- THis is not our actual C# code File and it does not end in .cs, it is our Project File -->
+
+<!-- The code for our Project File -->
+<!-- THis code below is a Boilerplate project file. A Boilerplate code is code a tempplate and can be reused elsewhere
+WHICH MEANS we could reuse this cod for other projects as well -->
+<!-- THis is very correct, as I am reusing the code I used in my first C# App(the Project File) in this Application(my second C# App Project File) -->
+
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargeTFramework>net6.0</TargeTFramework>
+    </PropertyGroup>
+
+</Project>
+
+<!-- THe OutputType Line tells the compiler we are building an executable file -->
+<!-- The TargetFrameWork line tells the compiler to use the .NET6.0 Framework to build this File -->
